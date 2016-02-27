@@ -1,6 +1,7 @@
 import requests
 import csv
 import bs4
+import pandas as pd
 
 movie_dict_list = []
 
@@ -37,12 +38,17 @@ dicts_sorted = sorted(movie_dict_list, key=lambda k: k['movie_rank'])
 
 # to-do - remove duplicates
 
-with open('top_scifi_movies.csv', 'w') as csvfile:
+#with open('top_scifi_movies.csv', 'w') as csvfile:
     # write column names to csv
-    field_names = dicts_sorted[0].keys()
-    writer = csv.DictWriter(csvfile, fieldnames=field_names)
-    writer.writeheader()
+    #field_names = dicts_sorted[0].keys()
+    #writer = csv.DictWriter(csvfile, fieldnames=field_names)
+    #writer.writeheader()
 
     # write data to csv as rows
-    for d in dicts_sorted:
-        writer.writerow(d)
+    #for d in dicts_sorted:
+        #writer.writerow(d)
+
+# use pandas to drop duplicates and create a csv
+df = pd.DataFrame(dicts_sorted)
+df = df.drop_duplicates()
+df.to_csv("top_scifi_movies.csv")

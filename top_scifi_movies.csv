@@ -1,53 +1,11 @@
-rating,movie_rank,movie_name
-85,100,Escape From New York
-85,100,Escape From New York
-85,100,Escape From New York
-85,100,Escape From New York
-83,91,They Live
-83,91,They Live
-67,92,Silent Running
-67,92,Silent Running
-67,92,Silent Running
-67,92,Silent Running
-78,93,Escape From the Planet of the Apes
-78,93,Escape From the Planet of the Apes
-78,93,Escape From the Planet of the Apes
-78,93,Escape From the Planet of the Apes
-78,93,Escape From the Planet of the Apes
-78,93,Escape From the Planet of the Apes
-43,94,The Black Hole
-43,94,The Black Hole
-43,94,The Black Hole
-43,94,The Black Hole
-43,94,The Black Hole
-43,94,The Black Hole
-82,95,Serenity
-82,95,Serenity
-82,95,Serenity
-82,95,Serenity
-82,95,Serenity
-82,95,Serenity
-85,96,Westworld
-85,96,Westworld
-85,96,Westworld
-85,96,Westworld
-85,96,Westworld
-85,96,Westworld
-N/A,97,City of Lost Children
-N/A,97,City of Lost Children
-N/A,97,City of Lost Children
-N/A,97,City of Lost Children
-N/A,97,City of Lost Children
-N/A,97,City of Lost Children
-90,98,Attack the Block
-90,98,Attack the Block
-90,98,Attack the Block
-90,98,Attack the Block
-90,98,Attack the Block
-90,98,Attack the Block
-74,99,Splice
-74,99,Splice
-74,99,Splice
-74,99,Splice
-74,99,Splice
-74,99,Splice
+,movie_name,movie_rank,rating
+0,Escape From New York,100,85
+4,They Live,91,83
+6,Silent Running,92,67
+10,Escape From the Planet of the Apes,93,78
+16,The Black Hole,94,43
+22,Serenity,95,82
+28,Westworld,96,85
+34,City of Lost Children,97,N/A
+40,Attack the Block,98,90
+46,Splice,99,74
